@@ -17,17 +17,30 @@ This project will be completed in phases. The first phase will be to work on thi
 
 ## Phase 0: Selection, Analysis & Plan
 
-#### Selected Project: CHOOSE WISELY
+#### Selected Project: Breakout/Arkanoid
 
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-YOUR ANSWERS HERE
+- User controlled paddle (Either a block or tile that is used to prevent the ball from hitting the bottom width of the window)
+- A grid of tiles/bricks (Disappear/become damaged upon contact with the ball)
+- A ball (Able to bounce of the paddle, bricks, top width and heights of the window)
+- Life lost upon touching the bottom width of the window
+- Set number of lives (more than 1)
+- Ability to pause (set a hotkey that pauses movement & maybe a pause screen)
+- Ability to reset (set a hotkey that resets the game, maybe a reset screen asking to confirm)
+- Continuation of the game (infinite bricks like in Galaga or levels)
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+- Starting screen
+- Levels of difficulty (ideas: increased speed of ball, regenerating array of bricks more often)
+- Pause screen
+- Reset screen
+- Customizability (ideas: color of paddle, ball, design of bricks)
+- Easter egg after breaking 100 bricks
+- Auto win feature, afterwards pulls a pop up "You win, Cheater!" 
 
 ### Array Usage
 How will you be using arrays in this project?
@@ -43,7 +56,10 @@ How will you be using arrays in this project?
 How will your program be controlled? List all keyboard commands and mouse interactions.
 
 Keyboard Commands:
-- LIST OF COMMANDS HERE
+- P - Play
+- R - Reset
+- Esc - Pause
+- Tentative: C (clears the board, auto win), 
 
 Mouse Control:
 - Mouse movement:
