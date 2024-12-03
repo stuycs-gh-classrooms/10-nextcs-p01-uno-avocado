@@ -1,7 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2bl0h1Mb)
 # NeXtCS Project 01
-### Name0: YOUR NAME HERE
-### Name1: TEAMMATE NAME HERE (delete line if working solo)
+### Name0: Timothy Louie
 ---
 
 ### Overview
@@ -40,16 +39,17 @@ What are some features that are not essential to the program, but you would like
 - Reset screen
 - Customizability (ideas: color of paddle, ball, design of bricks)
 - Easter egg after breaking 100 bricks
-- Auto win feature, afterwards pulls a pop up "You win, Cheater!" 
+- Auto win feature, afterwards pulls a pop up "You win, Cheater!"
+- Ability to alter size of ball
 
 ### Array Usage
 How will you be using arrays in this project?
 
 1D Array:
-- YOUR ANSER HERE
+- Paddle
 
 2D Array:
-- YOUR ANSWER HERE
+- Grid of bricks/tiles
 
 
 ### Controls
@@ -59,24 +59,30 @@ Keyboard Commands:
 - P - Play
 - R - Reset
 - Esc - Pause
-- Tentative: C (clears the board, auto win), 
+- Tentative: C (clears the board, auto win), + (increase size of ball), - (decrease size of ball)
 
 Mouse Control:
-- Mouse movement:
-- Mouse pressed:
+- Mouse movement: mouseX controls the movement of the paddle
+- Mouse pressed: Interactions with reset, pause & starting screen
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes. If you are going to use classes similar to those we've made for previous assignments, you will have to add new features to them.
 
-CLASS NAME0
+CLASS Brick
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Size, color, 
 - METHODS
-  - LIST METHODS HERE
+  - collisionCheck, setColor, display
 
-CLASS NAME1
+CLASS Ball
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Size, color, 
 - METHODS
-  - LIST METHODS HERE
+  - collisionCheck, setColor, display, move, 
+ 
+CLASS Screen
+- Instance variables:
+  - Size, color,
+- METHODS
+  - mousePressed, difficultyButton, 
