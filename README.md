@@ -34,7 +34,7 @@ What are the core features that your program should have? These should be things
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
 - Starting screen
-- Levels of difficulty (ideas: increased speed of ball, regenerating array of bricks more often)
+- Levels of difficulty (ideas: increased speed of ball, increased amount of balls, regenerating array of bricks more often, "tougher" bricks)
 - Pause screen
 - Reset screen
 - Customizability (ideas: color of paddle, ball, design of bricks)
@@ -71,18 +71,18 @@ What classes will you be creating for this project? Include the instance variabl
 
 CLASS Brick
 - Instance variables:
-  - Size, color, 
+  - Size, color, status
 - METHODS
-  - collisionCheck, setColor, display
+  - collisionCheck, setColor, display, statusCheck
 
 CLASS Ball
 - Instance variables:
-  - Size, color, 
+  - Size, color, speed
 - METHODS
-  - collisionCheck, setColor, display, move, 
+  - collisionCheck, setColor, display, move, speed
  
 CLASS Screen
 - Instance variables:
-  - Size, color,
+  - Size, color, type
 - METHODS
-  - mousePressed, difficultyButton, 
+  - mousePressed, difficultyButton, generalButtons
